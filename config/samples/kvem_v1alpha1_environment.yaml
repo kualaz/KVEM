@@ -1,0 +1,9 @@
+apiVersion: kvem.kualaz.com/v1alpha1
+kind: Environment
+metadata:
+  labels:
+    app.kubernetes.io/name: kvem
+    app.kubernetes.io/managed-by: kustomize
+  name: environment-sample
+spec:
+  # TODO(user): Add fields here
